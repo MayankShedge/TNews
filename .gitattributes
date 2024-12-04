@@ -1,0 +1,14 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly set line endings for specific files (if necessary).
+*.js text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+
+# For binary files (images, etc.), make sure they are treated as binary and not affected by line ending settings.
+*.jpg binary
+*.png binary
+*.gif binary
